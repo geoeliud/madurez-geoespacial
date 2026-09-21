@@ -1,0 +1,17 @@
+MMGI v0.14 — PAQUETE PÚBLICO PARA GITHUB PAGES
+
+Sube el CONTENIDO de esta carpeta a la raíz del repositorio geoeliud/madurez-geoespacial.
+
+Estructura esperada:
+- index.html
+- Tabla_Maestra_Madurez_v0.14.xlsx
+- documentos/
+
+Luego en GitHub:
+Settings > Pages > Build and deployment > Deploy from a branch > main > /(root) > Save.
+
+URL esperada:
+https://geoeliud.github.io/madurez-geoespacial/
+
+Esta versión pública excluye la carpeta insumos, codigo, auditoria y el archivo de contactos.
+En la interfaz se conservan los nombres de las fuentes para trazabilidad, pero no se ofrecen los archivos fuente como descarga.

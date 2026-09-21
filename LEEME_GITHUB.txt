@@ -1,17 +1,19 @@
-MMGI v0.14 — PAQUETE PÚBLICO PARA GITHUB PAGES
+MMGI v0.15 — LISTO PARA GITHUB PAGES
 
-Sube el CONTENIDO de esta carpeta a la raíz del repositorio geoeliud/madurez-geoespacial.
+Qué cambia respecto de v0.14
+- Se mantienen las 5 fases, 25 habilitantes, 50 verificables y los resultados institucionales.
+- Se muestran etiquetas de las 9 vías estratégicas IGIF en las fases, habilitantes y verificables.
+- La vista Metodología incluye una leyenda completa de las nueve vías.
+- La Tabla Maestra de la web y la autoevaluación muestran la correspondencia IGIF.
+- Se incluye documentos/Correspondencia_IGIF_v0.15.csv con las 50 correspondencias.
 
-Estructura esperada:
-- index.html
-- Tabla_Maestra_Madurez_v0.14.xlsx
-- documentos/
+Para actualizar GitHub Pages
+1. Subir/reemplazar index.html en la raíz del repositorio.
+2. Subir la carpeta documentos y Tabla_Maestra_Madurez_v0.14.xlsx.
+3. Hacer Commit changes. GitHub Pages se actualizará automáticamente.
 
-Luego en GitHub:
-Settings > Pages > Build and deployment > Deploy from a branch > main > /(root) > Save.
+Seguridad
+Este paquete público no incluye la carpeta de insumos internos ni la planilla de contactos.
 
-URL esperada:
-https://geoeliud.github.io/madurez-geoespacial/
-
-Esta versión pública excluye la carpeta insumos, codigo, auditoria y el archivo de contactos.
-En la interfaz se conservan los nombres de las fuentes para trazabilidad, pero no se ofrecen los archivos fuente como descarga.
+Nota
+La tabla Excel base de resultados permanece sin recalcular desde v0.14. La v0.15 añade la capa IGIF en la interfaz, exportaciones individuales y CSV de correspondencias.
